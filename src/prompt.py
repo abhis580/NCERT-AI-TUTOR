@@ -1,5 +1,8 @@
 from langchain_core.prompts import PromptTemplate
-prompt = PromptTemplate.from_template("""
+
+def load_prompt():
+
+    prompt = PromptTemplate.from_template("""
 You are an experienced CBSE Class 10 Science Teacher.
 
 You MUST answer ONLY from the provided NCERT context.
@@ -47,3 +50,5 @@ Question:
 
 Answer:
 """)
+
+    return prompt

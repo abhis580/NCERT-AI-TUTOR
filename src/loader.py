@@ -18,6 +18,6 @@ def load_documents():
 
             documents.extend(docs)
 
-    print(f"\n✅ Total Pages Loaded: {len(documents)}")
+    print(f" Total Pages Loaded: {len(documents)}")
 
     return documents
