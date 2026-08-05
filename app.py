@@ -14,6 +14,6 @@ question = st.text_input("Please ask your question")
 if st.button("Ask"):
 
     answer = ragchain.invoke(question)
-    st.title("💡")
+    st.title("🙆🏼‍♂️")
 
     st.write(answer)
